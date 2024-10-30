@@ -1,0 +1,19 @@
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+                    url('../../images/background.jpg'); /* Background image */
+  background-size: cover; /* Make the background image cover the banner */
+  background-position: center; /* Center the image */
+  padding: 150px 20px; /* Padding top/bottom */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+}
+
+.banner h1 {
+  font-size: 50px; /* Title font size */
+}
+
+.banner h2 {
+  font-size: 30px; /* Tagline font size */
+  font-weight: lighter; /* Lighter font weight */
+  opacity: 0.8; /* Slight transparency */
+}

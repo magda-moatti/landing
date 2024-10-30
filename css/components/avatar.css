@@ -1,0 +1,5 @@
+.avatar {
+  border-radius: 50%; /* Round avatar */
+  width: 100px; /* Set avatar width */
+  height: 100px; /* Set avatar height */
+}

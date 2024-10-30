@@ -1,0 +1,67 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+/* Container */
+.container {
+  max-width: 1200px; /* Set max width for large screens */
+  margin: 0 auto; /* Center container */
+  padding: 0 20px; /* Add some horizontal padding */
+}
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css"); /* Add this line to import card styles */
+/* CSS for Card Grid */
+.cards {
+    display: flex;       /* Use Flexbox for layout */
+    flex-wrap: wrap;    /* Allow wrapping of cards to the next line */
+    justify-content: center; /* Center cards horizontally */
+    margin: 20px;       /* Space around the grid */
+}
+
+.card {
+    flex-basis: 250px;  /* Base width for each card */
+    flex-grow: 1;       /* Allow cards to grow and fill space */
+    margin: 10px;       /* Space between cards */
+    padding: 20px;      /* Padding inside the card */
+    background-color: white; /* Card background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    display: flex;      /* Flexbox layout for card contents */
+    align-items: center; /* Center items vertically */
+    transition: transform 0.3s; /* Smooth transformation on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale card on hover */
+}
+
+.card img {
+    width: 150px;        /* Set image width */
+}
+
+.card h3 {
+    flex-grow: 1;        /* Allow heading to take remaining space */
+    padding-left: 20px;  /* Space between image and heading */
+    color: #333;         /* Heading color */
+}
